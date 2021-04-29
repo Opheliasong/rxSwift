@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "04D4FCDE-2CCD-486C-AA60-A15029AD3652"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8857AD16-A05D-4E67-B96E-D8D9B17F05E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rxSwiftExam/CameleonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "onMovedCircleView(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFA11252-B670-49DB-A90E-CE991C309390"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rxSwiftExam/CameleonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "setLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A70815C-1B30-479D-8367-ABA1F93C4D5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rxSwiftExam/CameleonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "setup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A70815C-1B30-479D-8367-ABA1F93C4D5C - 4e7c764d759fdbef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.CGPoint&gt;) -&gt; __C.UIColor in rxSwiftExam.CameleonViewModel.setup() -&gt; ()"
+                  moduleName = "rxSwiftExam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sungminpark/Works/rxSwift/rxSwift/rxSwiftExam/CameleonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  uuid = "3A70815C-1B30-479D-8367-ABA1F93C4D5C - 7e33eb7a0d1a1c69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 () -&gt; __C.UIColor in implicit closure #1 (__C.UIColor) -&gt; () -&gt; __C.UIColor in closure #1 (Swift.Optional&lt;__C.CGPoint&gt;) -&gt; __C.UIColor in rxSwiftExam.CameleonViewModel.setup() -&gt; ()"
+                  moduleName = "rxSwiftExam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sungminpark/Works/rxSwift/rxSwift/rxSwiftExam/CameleonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "992F6026-D1EB-4D82-A563-46BFF2B385A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rxSwiftExam/CameleonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "setup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "992F6026-D1EB-4D82-A563-46BFF2B385A5 - 4e7c764d759fdb02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.CGPoint&gt;) -&gt; __C.UIColor in rxSwiftExam.CameleonViewModel.setup() -&gt; ()"
+                  moduleName = "rxSwiftExam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sungminpark/Works/rxSwift/rxSwift/rxSwiftExam/CameleonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "323">
+               </Location>
+               <Location
+                  uuid = "992F6026-D1EB-4D82-A563-46BFF2B385A5 - 8b04692bb90abe82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #4 () -&gt; __C.UIColor in implicit closure #3 (__C.UIColor) -&gt; () -&gt; __C.UIColor in closure #1 (Swift.Optional&lt;__C.CGPoint&gt;) -&gt; __C.UIColor in rxSwiftExam.CameleonViewModel.setup() -&gt; ()"
+                  moduleName = "rxSwiftExam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sungminpark/Works/rxSwift/rxSwift/rxSwiftExam/CameleonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53240303-5E46-45FA-8F38-0D4A114D56FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rxSwiftExam/CameleonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "setLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
