@@ -2,16 +2,17 @@
 use_frameworks!
 
 target 'rxSwiftExam' do
-    pod 'RxSwift', '6.1.0'
-    pod 'RxCocoa', '6.1.0'
-    pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
-    pod 'Moya/RxSwift', '~> 14.0'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Moya/RxSwift'
+    pod 'Moya-ModelMapper/RxSwift', '~> 10.0'
+    pod 'RxOptional'
 end
 
 # RxTest and RxBlocking make the most sense in the context of unit/integration tests
 target 'rxSwiftExamTests' do
-    pod 'RxBlocking', '6.1.0'
-    pod 'RxTest', '6.1.0'
+    pod 'RxBlocking'
+    pod 'RxTest'
 end
 
 post_install do |installer|
