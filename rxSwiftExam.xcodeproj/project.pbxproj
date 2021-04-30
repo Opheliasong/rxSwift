@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4633BAE3263A7B3300C55564 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4633BAE2263A7B3300C55564 /* Repository.swift */; };
+		4633BAE9263A7B3F00C55564 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4633BAE8263A7B3F00C55564 /* Issue.swift */; };
+		4633BAF1263A7DF000C55564 /* IssueTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4633BAF0263A7DF000C55564 /* IssueTrackerModel.swift */; };
+		4633BAF6263A904900C55564 /* GithubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4633BAF5263A904900C55564 /* GithubTableViewCell.swift */; };
 		46AC256126312906004EB440 /* CameleonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC256026312906004EB440 /* CameleonView.swift */; };
+		46AC2612263A53B7004EB440 /* GithubIssueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC2611263A53B7004EB440 /* GithubIssueTableViewController.swift */; };
+		46AC262C263A7512004EB440 /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC262B263A7512004EB440 /* GithubEndpoint.swift */; };
 		46C956A8263111C9009945B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C956A7263111C9009945B2 /* AppDelegate.swift */; };
 		46C956AA263111C9009945B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C956A9263111C9009945B2 /* SceneDelegate.swift */; };
 		46C956AC263111C9009945B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C956AB263111C9009945B2 /* ViewController.swift */; };
@@ -43,7 +49,13 @@
 /* Begin PBXFileReference section */
 		283E9E4B9FAFC69DD3F6B4ED /* Pods-rxSwiftExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxSwiftExam.release.xcconfig"; path = "Target Support Files/Pods-rxSwiftExam/Pods-rxSwiftExam.release.xcconfig"; sourceTree = "<group>"; };
 		3B821B56B756850134CD47E3 /* Pods-rxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxSwift.release.xcconfig"; path = "Target Support Files/Pods-rxSwift/Pods-rxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		4633BAE2263A7B3300C55564 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4633BAE8263A7B3F00C55564 /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		4633BAF0263A7DF000C55564 /* IssueTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueTrackerModel.swift; sourceTree = "<group>"; };
+		4633BAF5263A904900C55564 /* GithubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTableViewCell.swift; sourceTree = "<group>"; };
 		46AC256026312906004EB440 /* CameleonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameleonView.swift; sourceTree = "<group>"; };
+		46AC2611263A53B7004EB440 /* GithubIssueTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubIssueTableViewController.swift; sourceTree = "<group>"; };
+		46AC262B263A7512004EB440 /* GithubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubEndpoint.swift; sourceTree = "<group>"; };
 		46C956A4263111C9009945B2 /* rxSwiftExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxSwiftExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C956A7263111C9009945B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46C956A9263111C9009945B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +110,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4633BAE7263A7B3700C55564 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4633BAE2263A7B3300C55564 /* Repository.swift */,
+				4633BAE8263A7B3F00C55564 /* Issue.swift */,
+				4633BAF0263A7DF000C55564 /* IssueTrackerModel.swift */,
+				4633BAF5263A904900C55564 /* GithubTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46AC2627263A74B8004EB440 /* GithubIssue */ = {
+			isa = PBXGroup;
+			children = (
+				4633BAE7263A7B3700C55564 /* Model */,
+				46AC2611263A53B7004EB440 /* GithubIssueTableViewController.swift */,
+				46AC262B263A7512004EB440 /* GithubEndpoint.swift */,
+			);
+			path = GithubIssue;
+			sourceTree = "<group>";
+		};
+		46AC2628263A74C7004EB440 /* FirstExample */ = {
+			isa = PBXGroup;
+			children = (
+				46AC2629263A74E1004EB440 /* res */,
+				46C956E726311FEE009945B2 /* CitiesCell.swift */,
+				46C956AB263111C9009945B2 /* ViewController.swift */,
+			);
+			path = FirstExample;
+			sourceTree = "<group>";
+		};
+		46AC2629263A74E1004EB440 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				46C956EC26312016009945B2 /* CitiesCell.xib */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		46AC262A263A74F0004EB440 /* UserInteractionEvent */ = {
+			isa = PBXGroup;
+			children = (
+				46AC256026312906004EB440 /* CameleonView.swift */,
+			);
+			path = UserInteractionEvent;
+			sourceTree = "<group>";
+		};
 		46C9569B263111C9009945B2 = {
 			isa = PBXGroup;
 			children = (
@@ -123,17 +182,16 @@
 		46C956A6263111C9009945B2 /* rxSwiftExam */ = {
 			isa = PBXGroup;
 			children = (
+				46AC262A263A74F0004EB440 /* UserInteractionEvent */,
+				46AC2628263A74C7004EB440 /* FirstExample */,
+				46AC2627263A74B8004EB440 /* GithubIssue */,
 				46C956A7263111C9009945B2 /* AppDelegate.swift */,
 				46C956A9263111C9009945B2 /* SceneDelegate.swift */,
-				46C956AB263111C9009945B2 /* ViewController.swift */,
 				46C956AD263111C9009945B2 /* Main.storyboard */,
 				46C956B3263111CB009945B2 /* Assets.xcassets */,
 				46C956B5263111CB009945B2 /* LaunchScreen.storyboard */,
 				46C956B8263111CB009945B2 /* Info.plist */,
 				46C956B0263111C9009945B2 /* rxSwift.xcdatamodeld */,
-				46C956E726311FEE009945B2 /* CitiesCell.swift */,
-				46C956EC26312016009945B2 /* CitiesCell.xib */,
-				46AC256026312906004EB440 /* CameleonView.swift */,
 			);
 			path = rxSwiftExam;
 			sourceTree = "<group>";
@@ -397,11 +455,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				46C956AC263111C9009945B2 /* ViewController.swift in Sources */,
+				46AC2612263A53B7004EB440 /* GithubIssueTableViewController.swift in Sources */,
 				46C956E826311FEE009945B2 /* CitiesCell.swift in Sources */,
+				46AC262C263A7512004EB440 /* GithubEndpoint.swift in Sources */,
 				46C956A8263111C9009945B2 /* AppDelegate.swift in Sources */,
+				4633BAE9263A7B3F00C55564 /* Issue.swift in Sources */,
+				4633BAF6263A904900C55564 /* GithubTableViewCell.swift in Sources */,
+				4633BAF1263A7DF000C55564 /* IssueTrackerModel.swift in Sources */,
 				46C956AA263111C9009945B2 /* SceneDelegate.swift in Sources */,
 				46AC256126312906004EB440 /* CameleonView.swift in Sources */,
 				46C956B2263111C9009945B2 /* rxSwift.xcdatamodeld in Sources */,
+				4633BAE3263A7B3300C55564 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +576,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -565,7 +630,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;

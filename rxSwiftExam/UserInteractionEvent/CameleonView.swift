@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-import ChameleonFramework
+//import ChameleonFramework
 import RxCocoa
 import RxSwift
 
@@ -40,10 +40,10 @@ class CameleonView: UIViewController {
         vm.backgorundColorObservable
             .subscribe (onNext:{ [unowned self](backgroundColor) in
                 self.circleView.backgroundColor = backgroundColor
-                let viewComplementaryColor = UIColor(complementaryFlatColorOf: backgroundColor)
-                if viewComplementaryColor != backgroundColor {
-                    self.view.backgroundColor = viewComplementaryColor
-                }
+//                let viewComplementaryColor = UIColor(complementaryFlatColorOf: backgroundColor)
+//                if viewComplementaryColor != backgroundColor {
+//                    self.view.backgroundColor = viewComplementaryColor
+//                }
             })
             .disposed(by: disposeBag)
     }
@@ -67,12 +67,13 @@ class CameleonViewModel {
     
     func setup() {
         backgorundColorObservable = centerVariable.asObservable().map({ (center) -> UIColor in
-            guard let center = center else { return UIColor.flatten(.black)() }
+            guard let center = center else { return UIColor.black }
             
             let red:CGFloat = CGFloat((center.x + center.y).truncatingRemainder(dividingBy: 255.0)) / 255.0
             let green:CGFloat = 0.0
             let blue:CGFloat = 0.0
-            return UIColor.flatten(UIColor(red: red, green: green, blue: blue, alpha: 1.0))()
+//            return UIColor.flatten(UIColor(red: red, green: green, blue: blue, alpha: 1.0))()
+            return UIColor.init(red: red, green: green, blue: blue, alpha: 1.0)
         })
     }
 }

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Cities-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rxSwiftExam" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,7 +37,8 @@
                             <constraint firstItem="eiH-l8-2mV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rjH-wT-Gcd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="W1Z-GM-3ox"/>
+                    <tabBarItem key="tabBarItem" title="Cities" image="magnifyingglass" catalog="system" id="ZtU-iz-wsP"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="searchBar" destination="eiH-l8-2mV" id="3M1-oT-5zw"/>
                         <outlet property="tableView" destination="Mh3-x1-wYQ" id="98k-Lt-KAr"/>
@@ -45,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966.66666666666674" y="81.696428571428569"/>
+            <point key="canvasLocation" x="87" y="321"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AZJ-Cu-1y0">
@@ -60,13 +61,14 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ivj-qr-QGU"/>
                         <segue destination="0Xl-CW-3tT" kind="relationship" relationship="viewControllers" id="xd2-dA-QE4"/>
+                        <segue destination="432-Wi-YbE" kind="relationship" relationship="viewControllers" id="KDn-Qj-4dM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSe-TY-p4z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-126" y="412"/>
+            <point key="canvasLocation" x="939" y="-498"/>
         </scene>
-        <!--Item-->
+        <!--ColorChange-->
         <scene sceneID="m9K-AZ-L47">
             <objects>
                 <viewController id="0Xl-CW-3tT" customClass="CameleonView" customModule="rxSwiftExam" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,14 +78,34 @@
                         <viewLayoutGuide key="safeArea" id="giK-Ty-9TC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="0KT-fd-ioq"/>
+                    <tabBarItem key="tabBarItem" title="ColorChange" image="scribble.variable" catalog="system" id="WcY-JF-44y"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DkG-Tj-h0c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966.66666666666674" y="752.67857142857144"/>
+            <point key="canvasLocation" x="938" y="321"/>
+        </scene>
+        <!--IssueTracker-->
+        <scene sceneID="YiO-Au-5K0">
+            <objects>
+                <viewController id="432-Wi-YbE" customClass="GithubIssueTableViewController" customModule="rxSwiftExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rlA-v4-BKk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fhc-gz-Nje"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="IssueTracker" image="network" catalog="system" id="zgH-TH-DJ2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="37y-4l-Thz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="321"/>
         </scene>
     </scenes>
     <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="network" catalog="system" width="128" height="121"/>
+        <image name="scribble.variable" catalog="system" width="128" height="118"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
